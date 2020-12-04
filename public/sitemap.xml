@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/cheatsheet/az/</loc>
+    <lastmod>2020-12-04T22:50:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/cheatsheet/</loc>
+    <lastmod>2020-12-04T22:50:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/cheatsheet/k8s/</loc>
+    <lastmod>2020-12-04T22:50:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+    <lastmod>2020-12-04T22:16:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-12-04T22:16:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/resume/</loc>
+    <lastmod>2020-12-04T22:16:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2020-12-04T22:16:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/hello-world/</loc>
+    <lastmod>2020-12-04T22:11:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2020-12-04T22:11:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+  
+</urlset>

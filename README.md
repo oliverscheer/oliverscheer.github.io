@@ -5,3 +5,15 @@ Getting started with hugo:
 
 The theme I use:  
 <https://github.com/ojroques/hugo-researcher/blob/master/exampleSite/config.toml>
+
+start hugo server locally
+
+```bash
+hugo server -D
+```
+
+publish static site:
+
+```bash
+
+```  
