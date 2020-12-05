@@ -1,6 +1,6 @@
 name: Update oliverscheer.github.io
 on:
-  push:
+  deployment:
     branches:
       - gh-pages
 
