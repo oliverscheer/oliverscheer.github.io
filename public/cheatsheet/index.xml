@@ -6,10 +6,19 @@
     <description>Recent content in Cheatsheets on Oliver Scheer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Dec 2020 22:50:31 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 05 Dec 2020 09:54:24 +0100</lastBuildDate>
     
 	<atom:link href="http://example.org/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker</title>
+      <link>http://example.org/cheatsheet/docker/</link>
+      <pubDate>Sat, 05 Dec 2020 09:54:24 +0100</pubDate>
+      
+      <guid>http://example.org/cheatsheet/docker/</guid>
+      <description>Docker </description>
+    </item>
     
     <item>
       <title>Az</title>
