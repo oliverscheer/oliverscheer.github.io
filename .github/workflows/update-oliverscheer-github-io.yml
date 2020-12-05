@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages to Github.io
+name: Update oliverscheer.github.io
 on:
   push:
     branches:
@@ -9,15 +9,7 @@ jobs:
     name: Deploy to GitHub  Pages
     runs-on: ubuntu-latest    
     steps:
-    - uses: actions/checkout@main
-
-    - name: Deploy
-      uses: s0/git-publish-subdir-action@develop
-      env:
-        REPO: self
-        BRANCH: gh-pages
-        FOLDER: public
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
     - name: Pushes to another repository
       id: push_directory
       uses: cpina/github-action-push-to-another-repository@cp_instead_of_deleting
