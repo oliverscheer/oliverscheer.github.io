@@ -18,3 +18,15 @@ jobs:
         BRANCH: gh-pages
         FOLDER: public
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Pushes to another repository
+      id: push_directory
+      uses: cpina/github-action-push-to-another-repository@cp_instead_of_deleting
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source-directory: 'public'
+        destination-github-username: 'oliverscheer'
+        destination-repository-name: 'oliverscheer.github.io'
+        user-email: oliver.scheer@hotmail.de
+        commit-message: See ORIGIN_COMMIT

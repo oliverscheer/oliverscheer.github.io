@@ -1,27 +1,27 @@
-name: Update oliverscheer.github.io
-on:
-  push:
-    branches:
-      - gh-pages
-  deployment:
-    branches:
-      - gh-pages
-      
-jobs:
-  deploy:
-    name: Deploy to GitHub  Pages
-    runs-on: ubuntu-latest    
-    steps:
-    - uses: actions/checkout@v2
-    - name: Pushes to another repository
-      id: push_directory
-      uses: cpina/github-action-push-to-another-repository@cp_instead_of_deleting
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      with:
-        source-directory: ''
-        destination-github-username: 'oliverscheer'
-        destination-repository-name: 'oliverscheer.github.io'
-        user-email: oliver.scheer@hotmail.de
-        commit-message: See ORIGIN_COMMIT
+# name: Update oliverscheer.github.io
+# on:
+#   push:
+#     branches:
+#       - gh-pages
+#   deployment:
+#     branches:
+#       - gh-pages
+
+# jobs:
+#   deploy:
+#     name: Deploy to GitHub  Pages
+#     runs-on: ubuntu-latest    
+#     steps:
+#     - uses: actions/checkout@v2
+#     - name: Pushes to another repository
+#       id: push_directory
+#       uses: cpina/github-action-push-to-another-repository@cp_instead_of_deleting
+#       env:
+#         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+#       with:
+#         source-directory: ''
+#         destination-github-username: 'oliverscheer'
+#         destination-repository-name: 'oliverscheer.github.io'
+#         user-email: oliver.scheer@hotmail.de
+#         commit-message: See ORIGIN_COMMIT
     
