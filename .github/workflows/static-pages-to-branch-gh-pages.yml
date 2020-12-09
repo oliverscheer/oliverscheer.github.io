@@ -19,12 +19,10 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - uses: actions/checkout@v2
-    - run: |
-       git checkout gh-pages
-       git remote add origin2 git@github.com:oliverscheer/oliverscheer.github.io
-       git push origin2 gh-pages
-      env:
-        repository: oliverscheer/homepage
-        ref: gh-pages
+      run: |
+        git remote add origin2 git@github.com:oliverscheer/oliverscheer.github.io
+        git push origin2 gh-pages
+      with:
+        repository: oliverscheer/oliverscheer.github.io
         token: ${{ secrets.GITHUB_TOKEN }}
     - run: echo "One last message"
