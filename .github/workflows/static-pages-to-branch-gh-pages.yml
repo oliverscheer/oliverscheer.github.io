@@ -19,9 +19,8 @@ jobs:
     #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Publish generated content to GitHub Pages
-      uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
+      uses: JamesIves/github-pages-deploy-action@3.6.2
       with:
-        dir: public
-        branch: gh-pages
-        token: ${{ secrets.ACCESS_TOKEN }}
-        repo: oliverscheer/oliverscheer.github.io
+        FOLDER: public
+        BRANCH: gh-pages
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
