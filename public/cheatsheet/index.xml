@@ -6,10 +6,30 @@
     <description>Recent content in Cheatsheets on Oliver Scheer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Dec 2020 09:54:24 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 09 Dec 2020 22:56:32 +0100</lastBuildDate>
     
 	<atom:link href="http://example.org/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bash</title>
+      <link>http://example.org/cheatsheet/bash/</link>
+      <pubDate>Wed, 09 Dec 2020 22:56:32 +0100</pubDate>
+      
+      <guid>http://example.org/cheatsheet/bash/</guid>
+      <description>Bash My cheat sheet for bash.</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://example.org/cheatsheet/clean-code/</link>
+      <pubDate>Sat, 05 Dec 2020 09:54:24 +0100</pubDate>
+      
+      <guid>http://example.org/cheatsheet/clean-code/</guid>
+      <description>Clean Code Uncle Bob
+Funny to watch, laugh, and learn.
+ Clean Code - YouTube  </description>
+    </item>
     
     <item>
       <title>Docker</title>
@@ -18,6 +38,15 @@
       
       <guid>http://example.org/cheatsheet/docker/</guid>
       <description>Docker </description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://example.org/cheatsheet/links/</link>
+      <pubDate>Sat, 05 Dec 2020 09:54:24 +0100</pubDate>
+      
+      <guid>http://example.org/cheatsheet/links/</guid>
+      <description>Links </description>
     </item>
     
     <item>

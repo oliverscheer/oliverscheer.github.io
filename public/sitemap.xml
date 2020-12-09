@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/cheatsheet/bash/</loc>
+    <lastmod>2020-12-09T22:56:32+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/cheatsheet/</loc>
+    <lastmod>2020-12-09T22:56:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tools/mural/</loc>
+    <lastmod>2020-12-07T09:16:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tools/</loc>
+    <lastmod>2020-12-07T09:16:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/cheatsheet/clean-code/</loc>
     <lastmod>2020-12-05T09:54:24+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/cheatsheet/docker/</loc>
+    <lastmod>2020-12-05T09:54:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/cheatsheet/links/</loc>
     <lastmod>2020-12-05T09:54:24+01:00</lastmod>
   </url>
   
