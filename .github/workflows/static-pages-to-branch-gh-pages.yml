@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest    
     steps:
     - uses: actions/checkout@main
-
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
       env:
@@ -19,11 +18,11 @@ jobs:
         FOLDER: public
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-     - uses: actions/checkout@v1
-     - run: |
-        echo "A initial message"
-        # git remote add origin2 <new_url>
-        git remote add origin2 git@github.com:oliverscheer/oliverscheer.github.io
-        # git push origin2 <branch A>
-        git push origin2 gh-pages
-     - run: echo "One last message"
+    - uses: actions/checkout@v1
+    - run: |
+       echo "A initial message"
+       # git remote add origin2 <new_url>
+       git remote add origin2 git@github.com:oliverscheer/oliverscheer.github.io
+       # git push origin2 <branch A>
+       git push origin2 gh-pages
+    - run: echo "One last message"
