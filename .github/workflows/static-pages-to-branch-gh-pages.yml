@@ -22,7 +22,7 @@ jobs:
     - run: |
        git remote add origin2 git@github.com:oliverscheer/oliverscheer.github.io
        git push origin2 gh-pages
-      with:
+      env:
         repository: oliverscheer/homepage
         ref: gh-pages
         token: ${{ secrets.GITHUB_TOKEN }}
