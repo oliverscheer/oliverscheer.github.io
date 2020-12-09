@@ -22,6 +22,7 @@ jobs:
     - run: |
        echo "A initial message"
        # git remote add origin2 <new_url>
+       git checkout gh-pages
        git remote add origin2 git@github.com:oliverscheer/oliverscheer.github.io
        # git push origin2 <branch A>
        git push origin2 gh-pages
