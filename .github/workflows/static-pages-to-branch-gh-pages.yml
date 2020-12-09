@@ -18,14 +18,12 @@ jobs:
         FOLDER: public
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - run: |
-       echo "A initial message"
-       # git remote add origin2 <new_url>
-       git checkout gh-pages
        git remote add origin2 git@github.com:oliverscheer/oliverscheer.github.io
-       # git push origin2 <branch A>
        git push origin2 gh-pages
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        repository: oliverscheer/homepage
+        ref: gh-pages
+        token: ${{ secrets.GITHUB_TOKEN }}
     - run: echo "One last message"
