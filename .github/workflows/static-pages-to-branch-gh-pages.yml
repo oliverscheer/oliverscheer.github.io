@@ -9,19 +9,31 @@ jobs:
     name: Deploy to GitHub Pages and build
     runs-on: ubuntu-latest    
     steps:
-    - uses: actions/checkout@main
-    - name: Deploy
-      uses: s0/git-publish-subdir-action@develop
-      env:
-        REPO: self
-        BRANCH: gh-pages
-        FOLDER: public
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Git checkout
+      uses: actions/checkout@v2
 
-    - name: Publish generated content to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.6.2
+    - name: Update theme
+      # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
+      run: git submodule update --init --recursive
+
+    - name: Setup hugo
+      uses: peaceiris/actions-hugo@v2
       with:
-        FOLDER: .
-        BRANCH: gh-pages
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPOSITORY_NAME: "oliverscheer/oliverscheer.github.io"
+        hugo-version: "0.64.0"
+
+    - name: Build
+      # remove --minify tag if you do not need it
+      # docs: https://gohugo.io/hugo-pipes/minification/
+      run: hugo --minify
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.ACCEESS_TOKEN }}
+        external_repository: oliverscheer/oliverscheer.github.io
+        publish_dir: ./public
+        #   keep_files: true
+        user_name: oliverscheer
+        user_email: oliver.scheer@hotmail.de
+        publish_branch: master
+      #   cname: example.com:  
