@@ -24,3 +24,4 @@ jobs:
         FOLDER: public
         BRANCH: gh-pages
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        REPOSITORY_NAME: "oliverscheer/oliverscheer.github.io"
