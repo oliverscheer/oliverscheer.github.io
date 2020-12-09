@@ -10,18 +10,18 @@ jobs:
     runs-on: ubuntu-latest    
     steps:
     - uses: actions/checkout@main
-    - name: Deploy
-      uses: s0/git-publish-subdir-action@develop
-      env:
-        REPO: self
-        BRANCH: gh-pages
-        FOLDER: public
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # - name: Deploy
+    #   uses: s0/git-publish-subdir-action@develop
+    #   env:
+    #     REPO: self
+    #     BRANCH: gh-pages
+    #     FOLDER: public
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Publish generated content to GitHub Pages
       uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
       with:
-        dir: ""
+        dir: "public"
         branch: gh-pages
         token: ${{ secrets.ACCESS_TOKEN }}
         repo: oliverscheer/oliverscheer.github.io
