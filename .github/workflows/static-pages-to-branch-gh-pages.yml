@@ -18,11 +18,9 @@ jobs:
         FOLDER: public
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - run: |
-        git checkout gh-pages
-        git remote add origin2 git@github.com:oliverscheer/oliverscheer.github.io
-        git push origin2 gh-pages
-      env:
-        repository: oliverscheer/homepage
-        token: ${{ secrets.GITHUB_TOKEN }}
-    - run: echo "One last message"
+    - name: Publish generated content to GitHub Pages
+        uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
+        with:
+          dir: public
+          branch: gh-pages
+          token: ${{ secrets.ACCESS_TOKEN }}
