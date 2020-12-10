@@ -11,10 +11,3 @@ start hugo server locally
 ```bash
 hugo server -D
 ```
-
-publish static site:
-
-```bash
-
-```  
-# oliverscheer.github.io
