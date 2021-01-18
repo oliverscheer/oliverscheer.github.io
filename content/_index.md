@@ -6,4 +6,4 @@ draft: false
 
 # Welcome
 
-## Posts
+[Who am I](posts/who-am-i)

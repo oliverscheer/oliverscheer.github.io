@@ -21,14 +21,6 @@ math = false
     name = "About"
     url = "/about"
     weight = 1
-  [[menu.main]]
-    name = "Resume"
-    url = "/resume"
-    weight = 2
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 3
-
+  
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
