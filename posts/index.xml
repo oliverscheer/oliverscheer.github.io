@@ -16,5 +16,19 @@
       <description>Hello World My first post.</description>
     </item>
     
+    <item>
+      <title>Hello World</title>
+      <link>http://oliverscheer.github.io/posts/references/</link>
+      <pubDate>Fri, 04 Dec 2020 22:11:39 +0100</pubDate>
+      
+      <guid>http://oliverscheer.github.io/posts/references/</guid>
+      <description>References Incomplete list of events/sessions/etc. I attended and have at least one active part.
+  2017
+ 2017-05-10 Build 2017 - Summary of Day 1    2011
+ CeBIT Build San Diego Bar Camp Hamburg    2010
+ 2010-11-10 Videotalk Michael Hülskötter - Windows Phone 7 &amp;amp; Silverlight CeBIT Student Summit TechEd Berlin    2009
+ CeBIT Xtopia Kompakt Tour Dotnet Cologne IFA TechEd Berlin 20 Annivesary Project Berlin Wall    2008</description>
+    </item>
+    
   </channel>
 </rss>
