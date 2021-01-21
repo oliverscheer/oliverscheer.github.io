@@ -20,7 +20,7 @@ I'm a Senior Software Engineer at Microsoft in a department called Commercial So
 
 I work approximately 95% from home or anyway, but I really like to travel for work related projects.
 
-My normal work time is during school and kindergarten time.
+My normal work time is during school and kindergarten time. In normal times without Covid-19.
 
 | Day               | Const Worktime      |
 | ----------------- | ------------------- |
